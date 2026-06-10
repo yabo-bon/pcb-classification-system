@@ -193,7 +193,7 @@ function AuthScreen({ onAuth }) {
               <span>Model validation accuracy</span>
             </div>
             <p className="auth-image-caption">
-              AI-powered PCB solder joint inspection for quality control workflows.
+              PCB solder joint inspection for quality control.
             </p>
           </div>
         </div>
@@ -729,7 +729,7 @@ export default function PCBSolderDefectClassifier() {
             <div>
               <span className="eyebrow">Machine Learning-Based Inspection System</span>
               <h2>Classify PCB solder defects from uploaded images.</h2>
-              <p>Upload a PCB solder joint image, run AI-powered analysis, and instantly see the predicted defect class, confidence score, and bounding box location.</p>
+              <p>Upload a PCB solder joint image and see the predicted defect class, confidence score, and bounding box location.</p>
               <div className="hero-actions">
                 <a className="btn light" href="#upload">Upload Image</a>
                 <a className="btn light" href="#detection">View Detection</a>
